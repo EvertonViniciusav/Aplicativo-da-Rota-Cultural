@@ -6,12 +6,12 @@ export default function HomeScreen({ route }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>Bem-vindo, {username}!</Text>
+      <Text style={styles.titulo}>Bem-vindo, {username}!</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  welcome: { fontSize: 22, fontWeight: 'bold' }
+  titulo: { fontSize: 22, fontWeight: 'bold' }
 });
