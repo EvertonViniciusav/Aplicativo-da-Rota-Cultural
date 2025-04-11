@@ -7,7 +7,7 @@ export default function LoginScreen({ navigation }) {
 
   const dadosLogin = () => {
     if (username && password) {
-      navigation.navigate('Tela Inicial', { username });
+      navigation.navigate('Inicial', { username });
     } else {
       Alert.alert('Preencha todos os campos.');
     }
