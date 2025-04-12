@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity} from 'react-native';
+import { View, Text, StyleSheet, FlatList, Image} from 'react-native';
 import mockData from "../data/mockData";
 
 export default function HomeScreen({ route }) {
@@ -21,8 +21,7 @@ export default function HomeScreen({ route }) {
             </View>
           </View>
         )}
-    />
-
+      />
     </View>
   );
 }
@@ -34,6 +33,6 @@ const styles = StyleSheet.create({
   item: { flexDirection: "row", padding: 10, marginVertical: 5, backgroundColor: "#fff", borderRadius: 10, alignItems: "center" },
   imagem: { width: 80, height: 80, borderRadius: 10, marginRight: 10 },
   info: { flex: 1 },
-  nome: { fontSize: 18, fontWeight: "bold", marginBottom: 5 },
-  descricao: { fontSize: 14, color: "gray", marginBottom: 3 },
+  nome: { fontSize: 19, fontWeight: "bold", marginBottom: 5 },
+  descricao: { fontSize: 16, color: "gray", marginBottom: 3 },
 });
